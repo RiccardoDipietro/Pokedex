@@ -1,0 +1,107 @@
+/* nav */
+.pokeball{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+nav{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button{
+    margin-right: 30px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    transition: .2s;
+    border: 2px solid black;
+}
+
+button:hover{
+    transform: scale(.8);
+}
+
+.flex{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label{
+    margin-right: 30px;
+}
+
+input{
+    margin-right: 30px;
+    width: 200px;
+    height: 30px;
+}
+
+/* main */
+
+/* elenco pokemon*/
+
+ul{
+    font-size: 40px;
+    text-align: center;
+}
+
+.containerLista{
+    border-right: 1px solid black;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.containerLista::-webkit-scrollbar {
+    display: none;
+}
+
+li{
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.vh-75{
+    height: 75vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+li:hover{
+    color: black;
+    transform: scale(1.4);
+    border: none;
+}
+
+@media screen and (max-width: 450px){
+    .containerLista{
+        height: 25vh;
+    }
+}
+
+/* dettagli */
+
+.imgPokemon{
+    width: 500px;
+}
+
+p{
+    font-size: 30px;
+}
